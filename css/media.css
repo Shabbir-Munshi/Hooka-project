@@ -1,0 +1,573 @@
+/*======================================== Large devices ========================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* Banner part start  */
+    .prev {
+        left: 42%;
+    }
+    .next {
+        right: 42%;
+    }
+    /* Story part start  */
+    .smokey_effect {
+        top: -115%;
+        right: 64%;
+    }
+    /* Happy count part start  */
+    .happy_count img {
+       height: auto;
+       width: auto;
+    }
+    /* Team part start  */
+    #team {
+        padding-bottom: 105px;
+    }
+    /* Gallery part start  */
+    .hover_img {
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+    }
+    .browse_btn a {
+      position: relative;
+      z-index: 99;
+    }
+    /* Footer part start  */
+    .footer_text p {
+        font-size: 16px;
+    }
+    /* footer bottom part start  */
+    .social_icon::before {
+        left: -250px;
+        width: 300px;
+    }
+    .social_icon::after {
+        right: -250px;
+        width: 300px;
+    }
+    .copy_right p {
+        font-size: 18px;
+    }
+    /* About page responsive css start  */
+    /* story part start  */
+    .mockup_smokey_effect {
+        bottom: 40px;
+        left: -180px;
+    }
+    /* Counter part start  */
+    .a_counter_item h3 {
+        font-size: 36px;
+    }
+    .a_counter_item p {
+        font-size: 20px;
+    }
+}
+/*========================================= Medium devices ======================================= */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* menu part start  */
+    .navbar {
+        background: black;
+    }
+    .navbar-brand {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 22px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 26px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        border-bottom: 3px solid #fff;
+        transition: all linear .4s;
+        -webkit-transition: all linear .4s;
+        -moz-transition: all linear .4s;
+        -ms-transition: all linear .4s;
+        -o-transition: all linear .4s;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        padding-left: 50px;
+    }
+    /* Banner part start  */
+    #banner {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .prev {
+        left: 40%;
+    }
+    .next {
+        right: 40%;
+    }
+    /* Story part start  */
+    #story {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .smokey_effect {
+        top: -190%;
+        right: 55%;
+    }
+    .story_text {
+        padding-top: 20px;
+    }
+    .story_text h3 {
+        font-size: 36px;
+    }
+    .story_text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .story_text p span {
+        padding-top: 10px;
+    }
+    /* Happy hour part start  */
+    #happy_hour {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .happy_title {
+        padding-bottom: 30px;
+    }
+    .happy_hour_routine .routaine {
+        margin-left: 60px;
+    }
+    /* Team part start  */
+    .team_title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* Gallery part start  */
+    .gallery_title {
+        padding-top: 30px;
+    }
+    .hover_img {
+        height: 65px;
+        width: 65px;
+        line-height: 65px;
+    }
+    .browse_btn {
+        position: relative;
+        z-index: 999;
+    }
+    /* Reservation part start  */
+    #reservation {
+        padding-bottom: 30px;
+    }
+    /* Footer bottom part start  */
+    .social_icon::before {
+        left: -35px;
+        width: 200px;
+    }
+    .social_icon::after {
+        right: -35px;
+        width: 200px;
+    }
+    /*================ About page responsive css start ================ */
+    /* Story part start  */
+    .mockup_smokey_effect {
+        bottom: 85px;
+        left: -130px;
+    }
+    .story_small_video{
+        padding-top: 30px;
+    }
+    /* Counter part start  */
+    .counter_bg {
+        padding-bottom: 30px;
+    }
+    .a_counter_item {
+        padding-bottom: 40px;
+    }
+    /* Contact page responsive css start  */
+    #contact_banner {
+        padding-top: 250px;
+    }
+    .contact_banner_text h3 {
+        font-size: 36px;
+    }
+    .contact_banner_text p {
+        font-size: 18px;
+    }
+    .contact_banner_text {
+        padding-bottom: 50px;
+    }
+    .count_down_item h3 {
+        font-size: 48px;
+    }
+
+}
+/*==================================== Small devices ====================================*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* menu part start  */
+    .navbar {
+        background: black;
+    }
+    .navbar-brand {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 22px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 26px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        border-bottom: 3px solid #fff;
+        transition: all linear .4s;
+        -webkit-transition: all linear .4s;
+        -moz-transition: all linear .4s;
+        -ms-transition: all linear .4s;
+        -o-transition: all linear .4s;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        padding-left: 50px;
+    }
+    /* Banner part start  */
+    #banner {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .banner_overlay {
+        padding-top: 200px;
+    }
+    .banner_text {
+        padding-bottom: 100px;
+    }
+    .prev {
+        bottom: 50px;
+        left: 35%;
+        z-index: 9999;
+    }
+    .next {
+        bottom: 50px;
+        right: 35%;
+        z-index: 9999;
+    }
+    /* Story part start  */
+    .smokey_effect {
+        top: -60%;
+        right: 70%;
+    }
+    .story_text {
+        text-align: center;
+    }
+    /* Happy hour part start  */
+    #happy_hour {
+        padding-bottom: 30px;
+    }
+    .happy_hour_routine {
+        margin-top: 50px;
+    }
+    /* Team part start  */
+    .team_title {
+        padding-top: 50px;
+    }
+    /* Gallery part start  */
+    .gallery_title {
+        padding-top: 30px;
+    }
+    .item {
+        width: 50%;
+    }
+    .for_small{
+        margin: 0 auto;
+    }
+    .browse_btn{
+        position: relative;
+        z-index: 999;
+    }
+    /* Reservation part start  */
+    #reservation {
+        padding-bottom: 50px;
+    }
+    .reservation_title{
+        padding-top: 40px;
+    }
+    /* testimonial part start  */
+    #testimonial {
+        padding-bottom: 50px;
+    }
+    .testi_text {
+        padding-bottom: 30px;
+    }
+    /* Footer part start  */
+    #footer {
+        padding-top: 50px;
+    }
+    /* Footer bottom part start  */
+    .social_icon i {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .social_icon::before {
+        left: -20px;
+        width: 100px;
+    }
+    .social_icon::after {
+        right: -20px;
+        width: 100px;
+    }
+    /*============ About page responsive css start ============ */
+    /* story part start  */
+    .mockup_smokey_effect {
+        left: -160px;
+    }
+    .about_story_text {
+        text-align: center;
+    }
+    .story_small_video{
+        padding-top: 20px;
+    }
+    /* Counter part start  */
+    .counter_bg {
+        padding-bottom: 30px;
+    }
+    .a_counter_item {
+        padding-bottom: 40px;
+    }
+    /*================== Contact page start ================== */
+    #contact_banner {
+        padding-top: 200px;
+        padding-bottom: 10px;
+    }
+    .contact_banner_text h3 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .contact_banner_text p {
+        line-height: 24px;
+    }
+    .contact_banner_text {
+        padding-bottom: 50px;
+    }
+    .count_down_item{
+        padding-bottom: 50px;
+    }
+ }
+/*============================== Extra small devices ==============================*/
+@media (max-width: 575.98px) {
+    /* menu part start  */
+    .navbar {
+        background: black;
+    }
+    .navbar-brand {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    .navbar-toggler{
+        outline: 0 !important;
+    }
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 22px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 26px;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        border-bottom: 3px solid #fff;
+        transition: all linear .4s;
+        -webkit-transition: all linear .4s;
+        -moz-transition: all linear .4s;
+        -ms-transition: all linear .4s;
+        -o-transition: all linear .4s;
+}
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        padding-left: 50px;
+    }
+    /* Banner part start  */
+    #banner {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .banner_overlay {
+        padding-top: 150px;
+    }
+    .banner_text h5 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .banner_text h3 span {
+        font-size: 52px;
+    }
+    .banner_text h3 {
+        font-size: 46px;
+    }
+    .banner_text {
+        padding-bottom: 70px;
+    }
+    .banner_text p::before {
+        left: -80px;
+        width: 70px;
+    }
+    .banner_text p::after {
+        right: -80px;
+        width: 70px;
+    }
+    .prev {
+        bottom: 30px;
+        left: 30%;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        z-index: 9999;
+    }
+    .next {
+        bottom: 30px;
+        right: 30%;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+    /* Story part start  */
+    #story {
+        padding-top: 50px;
+    }
+    .smokey_effect {
+        top: -50%;
+        right: 70%;
+    }
+    .story_text {
+        text-align: center;
+    }
+    .story_text p {
+        font-size: 14px;
+    }
+    /* Happy hour part start  */
+    .happy_title {
+        padding-bottom: 30px;
+    }
+    .happy_count {
+        margin-bottom: 15px;
+    }
+    .happy_hour_routine {
+        border-left: none;
+        padding-top: 40px;
+    }
+    .happy_hour_routine .routaine {
+        margin-left: 0px;
+        text-align: center;
+    }
+    /* Team part start  */
+    .team_title {
+        padding-top: 30px;
+ 
+    }
+    /* Gallery part start  */
+    .gallery_title {
+        padding-top: 30px;
+    }
+    .item {
+        width: 100%;
+    }
+    .browse_btn{
+        position: relative;
+        z-index: 9999;
+    }
+    /* Reservation part start  */
+    .reservation_title{
+        padding-top: 50px;
+    }
+    #reservation {
+        padding-bottom: 50px;
+    }
+
+    /* Testimonial part start  */
+    #testimonial {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .testi_text {
+        padding-bottom: 20px;
+    }
+
+    /* Footer part start  */
+    #footer {
+        padding-top: 30px;
+    }
+    .footer_text p {
+        font-size: 16px;
+    }
+    .footer_text a {
+        font-size: 16px;
+    }
+    /* Footer bottom part start  */
+    .social_icon i {
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+  
+    }
+    .social_icon::before {
+        display: none;
+    }
+    .social_icon::after {
+        display: none;
+    }
+    .copy_right p {
+        font-size: 12px;
+    }
+    /* ==================About page responsive css start ================== */
+    /* Story part start  */
+    .mockup_smokey_effect {
+        bottom: 60px;
+        left: -152px;
+    }
+    .about_story_text {
+        text-align: center;
+    }
+    .about_story_text p {
+        font-size: 14px;
+    }
+    .story_small_video_item {
+        margin: 0px auto 20px;
+    }
+    #about_page_story {
+        padding-bottom: 30px;
+    }
+    /* Counter part start  */
+    .counter_bg {
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+    .a_counter_item {
+        padding-bottom: 40px;
+    }
+    .a_counter_item h3 {
+        font-size: 36px;
+    }
+    .a_counter_item p {
+        font-size: 20px;
+    }
+    /*=============== Contact page start =============== */
+    #contact_banner {
+        padding-top: 200px;
+        padding-bottom: 10px;
+    }
+    .contact_banner_text h3 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .contact_banner_text p {
+        line-height: 24px;
+    }
+    .contact_banner_text {
+        padding-bottom: 50px;
+    }
+    .count_down_item{
+        padding-bottom: 50px;
+    }
+}
